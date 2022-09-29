@@ -30,7 +30,7 @@ export const NavBar = ({userLogged}) => {
         <Link to="./">
           <div className="flex items-center space-x-2">
             {/* <div className="bg-logo bg-cover w-8 h-8"></div> */}
-            <h1>ROYAL MAKEUP</h1>
+            <h1>ROYAL MAKEUP JODIENDO A VER SI FUNCIONA</h1>
           </div>
         </Link>
       </div>
