@@ -128,8 +128,13 @@ export const NavBar = ({userLogged}) => {
             <SearchBar />
           </div>
           {/* BOTONES CON LOS ÍCONOS PARA CARRITO, CORAZONES Y LOGIN */}
+<<<<<<< HEAD
 
           <Link>
+=======
+         
+          <Link to="./favorites">
+>>>>>>> f1344cd456b1e54cd54c1614139eb6bb606bbaf1
             <button className="">
               {" "}
               <svg
