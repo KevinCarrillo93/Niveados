@@ -29,7 +29,7 @@ export const Orders = () => {
   };
 
   useEffect(() => {
-    userType !== "Admin" && userType !== "User" && goHome();
+    // userType !== "Admin" && userType !== "User" && goHome();
     getAllOrders();
   }, []);
 
