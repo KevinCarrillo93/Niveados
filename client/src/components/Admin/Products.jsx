@@ -34,9 +34,9 @@ export const Products = () => {
 
   const dispatch = useDispatch();
 
-  useEffect(() => {
+ useEffect(() => {
     dispatch(getProducts());
-  }, [dispatch]);
+  }, [JSON.stringify(dashboardProducts)]);
 
   // ----------------------------------------------------------------------
   //--- NOMBRES DE LAS COLUMNAS. Al hacer click en una columna se convierte en la columna con el Sort habilitado
