@@ -35,9 +35,9 @@ export const ResetPassword = () => {
     }
   };
   return (
-    <div className="text-primary flex flex-col justify-center items-center mt-8">
+    <div className="text-primary flex flex-col justify-start items-center mt-8">
       <div>{error && <p>{error}</p>}</div>
-      <h2 className="text-2xl">Reset Password</h2>
+      <h2 className=" text-2xl">Reset Password</h2>
       <h4 className="opacity-50">please enter your email</h4>
       <div className="flex flex-col">
         <label className="pb-2">Email</label>
@@ -54,7 +54,7 @@ export const ResetPassword = () => {
       <div>
         <button
           onClick={handleResetPassword}
-          className="bg-secondary w-full h-11 rounded-lg text-white font-bold"
+          className="bg-secondary rounded-lg text-white px-4 py-2 mt-2"
         >
           Get Email to reset password
         </button>

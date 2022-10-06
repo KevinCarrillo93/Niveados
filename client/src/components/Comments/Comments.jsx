@@ -115,14 +115,16 @@ export const Comments = (product) => {
                 <div className="flex flex-col">
                   <div className="flex w-36 gap-2">
                     <div className="w-10 h-10 rounded-full bg-white">
-                      <img src={e.User.img} alt="userImg" className="w-full object-cover rounded-full"/>
+                      <img src={e.User.img} alt="userImg" className="w-full h-full object-cover rounded-full"/>
                     </div>
                     <span className="font-bold">{e.User.username}</span>
                   </div>
                   {/* <span>⭐⭐⭐⭐⭐</span> */}
                 </div>
-                <div className="flex flex-col">
-                  <p className="text-justify py-4">{e.text}</p>
+                <div className="flex flex-col just">
+                  <div className="">
+                    <p className="text-justify py-4">{e.text}</p>
+                  </div>
                   {/* apparently it crashes here after */}
                   {userLogged?.id === e.UserId && (
                     <div className="flex self-end">

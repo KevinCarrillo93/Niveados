@@ -78,9 +78,12 @@ export const Profile = () => {
         onChange={handleInputs}
       />
       <br />
-      <TextField label="Image" className="w-full" 
+      <input 
+      type='button'
+      label="Image"
+      className=" py-2 px-8 bg-secondary rounded-xl mt-4 text-white w-full text-center cursor-pointer"
       name="img"
-      value={inputs.img}
+      value={'Upload Image 📷'}
         onChange={handleInputs}
         onClick={uploadImage}
       />
